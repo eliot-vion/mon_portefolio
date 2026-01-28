@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>À propos - Eliot Vion</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+        }
+
+        /* NAVBAR */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 60px;
+        }
+
+        header h1 {
+            font-size: 24px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #00e5ff;
+        }
+
+        /* A PROPOS */
+        .about {
+            max-width: 900px;
+            margin: 80px auto;
+            background: rgba(255, 255, 255, 0.08);
+            padding: 50px;
+            border-radius: 20px;
+        }
+
+        .about h2 {
+            font-size: 40px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .about span {
+            color: #00e5ff;
+        }
+
+        .about p {
+            font-size: 18px;
+            line-height: 1.7;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .skills {
+            margin-top: 40px;
+        }
+
+        .skills h3 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .skills ul {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            list-style: none;
+        }
+
+        .skills li {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 20px;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mon Portfolio</h1>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="projets.html">Projets</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="about">
+    <h2>À <span>propos</span> de moi</h2>
+
+    <p>
+        Je m’appelle <strong>Eliot Vion</strong>, je suis passionné par le développement,
+        l’informatique et la création de projets web.
+    </p>
+
+    <p>
+        J’aime apprendre de nouvelles technologies, créer des sites modernes
+        et améliorer constamment mes compétences.
+        Ce portfolio me permet de présenter mes projets, mon parcours et mon évolution.
+    </p>
+
+    <p>
+        Je suis motivé, curieux et toujours prêt à relever de nouveaux défis,
+        que ce soit pour des projets scolaires, personnels ou professionnels.
+    </p>
+
+    <div class="skills">
+        <h3>Mes compétences</h3>
+        <ul>
+            <li>HTML / CSS</li>
+            <li>Notions JavaScript</li>
+            <li>PHP (bases)</li>
+            <li>Réseaux / Systèmes</li>
+            <li>Création de sites web</li>
+            <li>Maintenance informatique</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    © 2026 - Vion Eliot | Tous droits réservés
+</footer>
+
+</body>
+</html>
